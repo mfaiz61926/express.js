@@ -2,18 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Store</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1>Add a Book </h1>
-    <form action="/books" method="POST">
-        <label for="title">Title:</label>
-        <input type="text" id="title" name="title" required><br>
-        <label for="author">Author:</label>
-        <input type="text" id="author" name="author" required><br>
-        <input type="submit" value="Add Book">
-    </form>
-    
+    <header>
+    <div class="logo">Logo</div>
+    <nav>
+    <ul>
+        <li> <a href="#"> Home </a></li>
+        <li> <a href="#"> Offers </a></li>
+        <li> <a href="#"> Buy Now </a></li>
+        <li> <a href="#"> Sell Now </a></li>
+        <li> <a href="#"> About Us </a></li>
+        <li> <a href="#" class="signup"> Sign Up </a></li>
+    </ul>
+</nav>
+</header>
+<main>
+    <div class="contentleft">
+    <h2>Mercury</h2>
+        
+    </div>
+    <div class="contentmid">
+        <p>Mercury, the innermost planet of the solar system and the eighth in size and mass. Its closeness to the Sun and its smallness make it the most elusive of the planets visible to the unaided eye. Because its rising or setting is always within about two hours of the Sun’s, it is never observable when the sky is fully dark. Mercury is designated by the symbol ☿. <br>
+            Mercury is the closest planet to the Sun, at a distance of 57.91 million kilometers / 35.98 miles or 0.4 AU away. It takes sunlight 3.2 minutes to travel from the Sun to Mercury.
+        </p>
+        <button class="btn">Buy Now</button>
+    </div>
+    <div class="contentright">
+    <img src="About.png" class="merc">
+    </div>
+</main>
 </body>
 </html>
